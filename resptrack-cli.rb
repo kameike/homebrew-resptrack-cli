@@ -1,4 +1,4 @@
-class ResptrackCliFormula < Formula
+class ResptrackCli < Formula
   homepage 'https://github.com/kameike/resptrack'
   version '0.0.21'
   if OS.linux?
