@@ -9,6 +9,6 @@ class ResptrackCli < Formula
     sha256 '4afb954038a025a535feb7dc243980f9912d117e40c1d820822247e0da7d51f1'
   end
   def install
-    bin.install 'resptrack'
+    bin.install 'resptrack-cli'
   end
 end
