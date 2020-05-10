@@ -1,12 +1,12 @@
 class ResptrackCli < Formula
   homepage 'https://github.com/kameike/resptrack'
-  version '0.0.28'
+  version '0.0.31'
   if OS.linux?
-    url 'https://github.com/kameike/homebrew-resptrack-cli/releases/download/v0.0.28/resptrack-cli_v0.0.28_linux_amd64.tar.zip'
-    sha256 'd78f7cab98359e7a3807b2d14b5ba758926f075bd13163c3408f7e683e0e3636'
+    url 'https://github.com/kameike/homebrew-resptrack-cli/releases/download/v0.0.31/resptrack-cli_v0.0.31_linux_amd64.tar.zip'
+    sha256 '3a3a10b4749e3b55a0f8b46b6a02335ee1c6a9aaf133ec99eebb9f93649a0244'
   else
-    url 'https://github.com/kameike/homebrew-resptrack-cli/releases/download/v0.0.28/resptrack-cli_v0.0.28_darwin_amd64.zip'
-    sha256 '4a2a1f02b88ac30d3abae27e26dc6d6d3a8133174ef40c03b12a7d1a3da1e158'
+    url 'https://github.com/kameike/homebrew-resptrack-cli/releases/download/v0.0.31/resptrack-cli_v0.0.31_darwin_amd64.zip'
+    sha256 '4b1e74fb5a4c52835ac88e2f2229eaeabcb37434bc7091739d73fe735e00fce4'
   end
   def install
     bin.install 'resptrack-cli'
